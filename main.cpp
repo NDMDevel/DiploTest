@@ -1,18 +1,21 @@
 //example Arduino
+#include "Timer.h"
+#include "Led.h"
 
-#include <Led.h>
-
+Timer timer;
 Led led;
 
 void setup()
 {
     led.begin(2);
+    timer.start();
 }
 
 void loop()
 {
-    delay(100);
-    led.on();
-    delay(100);
-    led.off();
+    if( timer.elapsed() > 100 )
+    {
+        led.on();
+        timer.start();
+    }
 }
