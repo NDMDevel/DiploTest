@@ -18,7 +18,7 @@ public:
     {
         digitalWrite(pin,HIGH);
     }
-    void of()
+    void off()
     {
         digitalWrite(pin,LOW);
     }
