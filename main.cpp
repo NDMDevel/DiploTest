@@ -1,4 +1,3 @@
-//example Arduino
 
 void setup()
 {
