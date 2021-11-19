@@ -1,4 +1,5 @@
 //example Arduino
+
 #include "Timer.h"
 #include "Led.h"
 
@@ -15,7 +16,7 @@ void loop()
 {
     if( timer.elapsed() > 100 )
     {
-        led.on();
+        led.toogle();
         timer.start();
     }
 }

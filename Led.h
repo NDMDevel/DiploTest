@@ -22,4 +22,11 @@ public:
     {
         digitalWrite(pin,LOW);
     }
+    void toogle()
+    {
+        if( digitalRead(pin) == HIGH )
+            off();
+        else
+            on();
+    }
 };
