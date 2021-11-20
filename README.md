@@ -1,3 +1,1 @@
 # DiploTest
-
-Un cambio local
