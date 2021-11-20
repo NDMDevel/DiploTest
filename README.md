@@ -1,6 +1,6 @@
 # DiploTest
 
-Algun **texto**.
+*Algun* **texto**.
 - Item
 - Otro item
 
